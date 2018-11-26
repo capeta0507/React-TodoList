@@ -6,6 +6,8 @@
 * 觸發動畫
 * 整合第三方的 DOM 函式庫
 
+>參考教學 : https://www.youtube.com/watch?v=h5crrOsLbpk&index=15&list=PL478wQWRhpfaQbaET2DvDzG60EFGThtd1&t=0s
+
 **切記ref不能頻繁的使用**
 ```javascript=
 <div className="todoListMain">
