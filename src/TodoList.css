@@ -1,35 +1,65 @@
-.todoListMain .header input{
+.buyListMain{
+    padding-left: 50px;
+}
+.buyListMain .header input{
     padding: 10px;
     font-size: 16px;
     border: 2px solid rgb(194, 194, 194);
-    width: 165px;
+    margin-right: 10px;
+    /* width: 165px; */
 }
-.todoListMain .header button{
+.buyListMain .header button{
     padding: 10px;
     font-size: 16px;
-    margin: 10px;
+    /* margin: 10px; */
     margin-right: 0px;
     background-color: #0066FF;
     color: white;
     border: 2px solid #0066FF;
 }
-.todoListMain .header button:hover{
+.buyListMain .header button:hover{
     background-color: rgb(70, 144, 255);
     border: 2px solid rgb(70, 144, 255);
     cursor: pointer;
 }
-.todoListMain .theList li{
+.amout{
+    width: 50px;
+    text-align: right;
+}
+.buyitem{
+    display: flex;
+    margin-top: 30px;
+}
+.itemsText{
+    padding-top: 10px;
+    width: 220px;
+}
+.itemsMoney{
+    padding-top: 10px;
+    width: 80px;
+}
+.remove{
+    background-color: red;
+    border: 2px solid red;
+    color:white;
+    /* padding: 10px; */
+    font-size: 16px;
+    border-radius: 50%;
+}
+.remove:hover{
+    background-color: rgb(243, 141, 141);
+    border: 2px solid rgb(255, 70, 70);
+    cursor: pointer;
+    color:black;
+}
+.buyitem {
     color: #333;
+    font-size: 20px;
     background-color: rgba(255, 255, 255, .5);
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
-    list-style: none;
 }
-.todoListMain .theList li:hover{
-    background-color: pink;
-    cursor: pointer;
-}
-ul.theList{
-    padding: 0;
+.itemList{
+    width: 390px;
 }
